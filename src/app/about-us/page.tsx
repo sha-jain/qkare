@@ -1,11 +1,12 @@
 import React from "react";
-import H2What from "@/components/about-us/AboutUs";
+import About_Us from "@/components/about-us/AboutUs";
 
-const AboutUs =()=>{
-    return (
-        <>
-        <H2What/>
-        </>
-    )
-}
+const AboutUs = () => {
+  return (
+    <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
+      <About_Us />
+    </div>
+  );
+};
+
 export default AboutUs;

@@ -1,63 +1,45 @@
-import Head from 'next/head';
+import React from "react";
 
-const services = [
-  {
-    title: "1. Patient Data",
-    description: "Services Include Scheduling, Elig. Verification / Prior Auth, Patient Demo, EDI with hospital system, EMR / PMS",
-    icon: "🩺", // Placeholder icon, replace with actual SVG/icon
-  },
-  {
-    title: "2. Coding & Compliance",
-    description: "Services Include Coding / Coding Audits / EMR Coding, Coding Compliance Audits",
-    icon: "📅",
-  },
-  {
-    title: "3. Claims",
-    description: "Charge Entry / Audits, Insurance Billing, Transmission and Rejections, edit checks and validations",
-    icon: "📋",
-  },
-  {
-    title: "4. Payment Handling",
-    description: "Manual and ERA posting, Payment reconciliation, Refunds and Credit Balance, Unclaimed funds and Offsets",
-    icon: "🔄",
-  },
-  {
-    title: "5. Reimbursements",
-    description: "Denials and Appeals, No response, unpaid and low paid claims resolution, AR follow-up",
-    icon: "⏰",
-  },
-];
-
-const H2What = () => {
+const AboutUs = () => {
   return (
-    <>
-      <Head>
-        <title>QKare - What We Do</title>
-      </Head>
-      <main className="pt-16 pb-28 w-full"
-        style={{
-          backgroundImage: "url('/pexelsGdtography.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <section className="max-w-6xl mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 text-black">What We Do?</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-12 gap-x-12">
-            {services.map((service, index) => (
-              <div key={index} className="p-6 bg-white rounded-lg shadow-md flex items-start">
-                <span className="text-3xl mr-4">{service.icon}</span>
-                <div>
-                  <h3 className="text-xl font-bold mb-2">{service.title}</h3>
-                  <p className="text-gray-600">{service.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-      </main>
-    </>
+    <section className="bg-white py-12 px-12 lg:px-40 mt-6">
+      {/* Title */}
+      <h1 className="text-3xl font-bold text-blue-900 mb-8">About Us</h1>
+
+      <p className="text-gray-700 text-lg mb-4">
+      At QKare, we bring together a collective expertise of over 40+ years in end-to-end Revenue Cycle Management (RCM), 
+      driven by a passion for excellence and a commitment to delivering results. Our mission is to lead with innovation, 
+      dedication, and a customer-centric approach, ensuring that every solution we provide aligns with the unique needs of our clients.
+      </p>
+      <p className="text-gray-700 text-lg mb-4">
+      Our philosophy revolves around simplifying complexities—innovating, automating, strategizing, and 
+      executing with precision to deliver seamless RCM solutions under one roof. Trust, credibility, and 
+      goodwill are the pillars of our success, enabling us to build lasting relationships with healthcare providers across geographies.
+      </p>
+      <p className="text-gray-700 text-lg mb-14">
+      At QKare, we are dedicated to empowering healthcare professionals by optimizing revenue processes, 
+      reducing administrative burdens, and enhancing operational efficiency. This allows our clients to focus on what truly 
+      matters—delivering exceptional care to their patients. Together, we aim to redefine healthcare management 
+      through expertise, trust, and unwavering commitment to excellence.
+      </p>
+
+      {/* Icon Section */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-20 mb-10 lg:px-40">
+        <div className="text-center">
+          <img src="/trust.png" alt="Innovate" className="w-auto mx-auto mb-4" />
+          <h3 className="text-xl font-semibold text-gray-700">Trust</h3>
+        </div>
+        <div className="text-center">
+          <img src="/innovation.png" alt="Automate" className="w-auto mx-auto mb-4" />
+          <h3 className="text-xl font-semibold text-gray-700">Innovation</h3>
+        </div>
+        <div className="text-center">
+          <img src="/efficiency.png" alt="Strategize" className="w-auto mx-auto mb-4" />
+          <h3 className="text-xl font-semibold text-gray-700">Efficiency</h3>
+        </div>
+      </div>
+    </section>
   );
 };
 
-export default H2What;
+export default AboutUs;

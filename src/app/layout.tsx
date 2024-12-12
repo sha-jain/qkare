@@ -31,7 +31,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
 
-        {children}
+        <Navbar /> {/* Add Navbar to appear at the top of every page */}
+        <main>{children}</main> {/* Render the page content */}
+        <Footer /> {/* Add Footer to appear at the bottom of every page */}
  
       </body>
     </html>
