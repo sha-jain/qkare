@@ -8,9 +8,9 @@ const Footer = () => {
         {/* Logo Column */}
         <div className="flex flex-col items-center md:items-start">
           <img 
-            src="/qkare_logo6-m2.png" 
+            src="/qkare-white.png" 
             alt="Logo" 
-            className="max-h-16 w-auto object-contain mb-4 md:mb-0"
+            className="max-h-24  w-auto object-contain mb-4 md:mb-0"
           />
         </div>
 

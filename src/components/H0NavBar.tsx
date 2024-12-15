@@ -10,9 +10,9 @@ const Navbar: React.FC = () => {
       <div className="flex-shrink-0">
         <a href="/">
           <img
-            src="/qkare_logo6b-modified.png"
+            src="/qkare-ultimate2.png"
             alt="QKARE Logo"
-            className="h-12"
+            className="h-24"
           />
         </a>
       </div>
