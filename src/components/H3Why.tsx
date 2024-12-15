@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function H3Why() {
   return (
     <div className=" bg-[#44417a] text-white pt-16 pb-28">

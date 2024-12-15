@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HIWho from "@/components/H1Who";
 import H2What from "@/components/H2What";
 import H3Why from "@/components/H3Why";
