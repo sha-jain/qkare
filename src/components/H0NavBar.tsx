@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from "react";
+import Link from "next/link";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,13 +9,13 @@ const Navbar: React.FC = () => {
     <nav className="relative flex items-center justify-between px-4 py-2 bg-gray-100 shadow-md w-full">
     
       <div className="flex-shrink-0">
-        <a href="/">
+        <Link href="/">
           <img
             src="/qkare-ultimate2.png"
             alt="QKARE Logo"
             className="h-24"
           />
-        </a>
+        </Link>
       </div>
 
     
@@ -62,24 +63,24 @@ const Navbar: React.FC = () => {
         `}
       >
         <li className="py-2 px-4 border-b border-gray-300 md:border-0">
-          <a href="/" className="block hover:text-blue-600">
+          <Link href="/" className="block hover:text-blue-600">
             Home
-          </a>
+          </Link>
         </li>
         <li className="py-2 px-4 border-b border-gray-300 md:border-0">
-          <a href="/about-us" className="block hover:text-blue-600">
+          <Link href="/about-us" className="block hover:text-blue-600">
             About Us
-          </a>
+          </Link>
         </li>
         <li className="py-2 px-4 border-b border-gray-300 md:border-0">
-          <a href="/our-services" className="block hover:text-blue-600">
+          <Link href="/our-services" className="block hover:text-blue-600">
             Services
-          </a>
+          </Link>
         </li>
         <li className="py-2 px-4">
-          <a href="/contact-us" className="block hover:text-blue-600">
+          <Link href="/contact-us" className="block hover:text-blue-600">
             Contact Us
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
