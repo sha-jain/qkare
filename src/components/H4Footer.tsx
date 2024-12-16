@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaLinkedin } from "react-icons/fa";
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -39,7 +41,7 @@ const Footer = () => {
             </li>
           </ul>
           <div className="mt-4 flex space-x-4 justify-center md:justify-start">
-            <a href="#" className="text-gray-400 hover:text-white">[LinkedIn Icon]</a>
+            <Link href="#" className="text-gray-400 hover:text-white"> <FaLinkedin className ="h-8 w-8"/></Link>
           </div>
         </div>
 
