@@ -24,17 +24,17 @@ const AboutUs = () => {
       </p>
 
       {/* Icon Section */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-20 mb-10 lg:px-40">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-28 mb-10 lg:px-40">
         <div className="text-center">
-          <img src="/trust.png" alt="Innovate" className="w-auto mx-auto mb-4" />
+          <img src="/trust2_m.png" alt="Innovate" className="w-auto mx-auto mb-4" />
           <h3 className="text-xl font-semibold text-gray-700">Trust</h3>
         </div>
         <div className="text-center">
-          <img src="/innovation.png" alt="Automate" className="w-auto mx-auto mb-4" />
+          <img src="/innovation2_m.png" alt="Automate" className="w-auto mx-auto mb-4" />
           <h3 className="text-xl font-semibold text-gray-700">Innovation</h3>
         </div>
         <div className="text-center">
-          <img src="/efficiency.png" alt="Strategize" className="w-auto mx-auto mb-4" />
+          <img src="/efficiency2_m.png" alt="Strategize" className="w-auto mx-auto mb-4" />
           <h3 className="text-xl font-semibold text-gray-700">Efficiency</h3>
         </div>
       </div>

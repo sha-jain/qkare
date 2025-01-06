@@ -41,7 +41,7 @@ const Footer = () => {
             </li>
           </ul>
           <div className="mt-4 flex space-x-4 justify-center md:justify-start">
-            <Link href="#" className="text-gray-400 hover:text-white"> <FaLinkedin className ="h-8 w-8"/></Link>
+            <Link href="https://www.linkedin.com/company/qkare-life/about/" className="text-gray-400 hover:text-white"> <FaLinkedin className ="h-8 w-8"/></Link>
           </div>
         </div>
 

@@ -3,70 +3,70 @@ import React from 'react';
 const Services = () => {
   const services = [
     {
-      title: "Eligibility Verification",
+      title: "A/R Management",
       description:
-        "We verify patients' current insurance eligibility, update their records, and flag potential issues before services are rendered.",
-      image: "/elig_ver.jpg",
-    },
-    {
-      title: "Patient Enrollment",
-      description:
-        "Our team assists practices in enrolling underinsured and uninsured patients into foundation and PAP support programs efficiently.",
-      image: "/pat_enrol.png",
-    },
-    {
-      title: "Benefits Verification",
-      description:
-        "We validate patient benefits and deductible balances to ensure accurate and timely billing.",
-      image: "/ben_ver.png",
-    },
-    {
-      title: "Demographic Data Entry and Verification",
-      description:
-        "We enter and verify new patient demographic data into EMR and PMS systems with precision to ensure completeness and accuracy.",
-      image: "/dem_ver.jpg",
+        "Our team prioritizes high-value claims, reduces Days in AR, and resolves claim discrepancies to maximize revenue recovery.",
+      image: "/services/a_r_man_m.jpg",
     },
     {
       title: "Authorization",
       description:
         "We initiate and follow up on pre-authorizations with payers, ensuring seamless service delivery and preventing revenue delays.",
-      image: "/authorization.jpg",
+      image: "/services/authorization.jpg",
     },
     {
-      title: "A/R Management",
+      title: "Benefits Verification",
       description:
-        "Our team prioritizes high-value claims, reduces Days in AR, and resolves claim discrepancies to maximize revenue recovery.",
-      image: "/a_r_man.jpg",
+        "We validate patient benefits and deductible balances to ensure accurate and timely billing.",
+      image: "/services/ben_ver_m.png",
     },
     {
       title: "Charge Posting",
       description:
         "We meticulously scrub claims during charge posting to optimize first-time approvals and reduce denials.",
-      image: "/char_pos.jpg",
-    },
-    {
-      title: "Reporting",
-      description:
-        "We provide tailored performance reports that align with each client’s specific needs.",
-      image: "/repor.png",
-    },
-    {
-      title: "Payment Posting",
-      description:
-        "We promptly post insurance payments, reconcile deposits, and ensure patient billing is accurate, clear, and timely.",
-      image: "/pay_pos.jpg",
+      image: "/services/char_pos_m.jpg",
     },
     {
       title: "Credentialing",
       description:
         "Our experts handle healthcare insurance enrollment and credentialing, ensuring timely approval while safeguarding provider data.",
-      image: "/creden.jpg",
+      image: "/services/creden_m.jpg",
+    },
+    {
+      title: "Demographic Data Entry and Verification",
+      description:
+        "We enter and verify new patient demographic data into EMR and PMS systems with precision to ensure completeness and accuracy.",
+      image: "/services/dem_ver_m.jpg",
+    },
+    {
+      title: "Eligibility Verification",
+      description:
+        "We verify patients' current insurance eligibility, update their records, and flag potential issues before services are rendered.",
+      image: "/services/elig_ver_m.jpg",
     },
     {
       title: "NPI Registry",
       description:
         "We assist physicians in obtaining NPIs to prevent cash flow disruptions and ensure operational efficiency.",
-      image: "/regis.jpg",
+      image: "/services/npi_regis_m.jpg",
+    },
+    {
+      title: "Patient Enrollment",
+      description:
+        "Our team assists practices in enrolling underinsured and uninsured patients into foundation and PAP support programs efficiently.",
+      image: "/services/pat_enrol_m.png",
+    },
+    {
+      title: "Payment Posting",
+      description:
+        "We promptly post insurance payments, reconcile deposits, and ensure patient billing is accurate, clear, and timely.",
+      image: "/services/pay_pos.jpg",
+    },
+    {
+      title: "Reporting",
+      description:
+        "We provide tailored performance reports that align with each client’s specific needs.",
+      image: "/services/repor_m.png",
     },
       
   ];
