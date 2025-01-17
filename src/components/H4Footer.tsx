@@ -4,15 +4,15 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-8 w-full">
-      <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-6 md:px-14">
-        
+    <footer className="bg-gray-900 text-white py-8 w-full overflow-hidden">
+      <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4 sm:px-6 md:px-14 lg:px-16">
+
         {/* Logo Column */}
         <div className="flex flex-col items-center md:items-start">
           <img 
             src="/qkare-white.png" 
             alt="Logo" 
-            className="max-h-24  w-auto object-contain mb-4 md:mb-0"
+            className="max-h-24 w-auto object-contain mb-4 md:mb-0"
           />
         </div>
 
@@ -41,7 +41,9 @@ const Footer = () => {
             </li>
           </ul>
           <div className="mt-4 flex space-x-4 justify-center md:justify-start">
-            <Link href="https://www.linkedin.com/company/qkare-life/about/" className="text-gray-400 hover:text-white"> <FaLinkedin className ="h-8 w-8"/></Link>
+            <Link href="https://www.linkedin.com/company/qkare-life/about/" className="text-gray-400 hover:text-white">
+              <FaLinkedin className="h-8 w-8" />
+            </Link>
           </div>
         </div>
 
@@ -51,3 +53,6 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+

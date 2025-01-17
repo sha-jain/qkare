@@ -1,9 +1,11 @@
 export default function H3Why() {
   return (
-    <div className=" bg-[#44417a] text-white pt-16 pb-28 w-full">
-      <div className="container mx-auto px-40">
+    <div
+      className="bg-[url('/water.jpg')] bg-cover bg-center text-white pt-16 pb-28 w-full"
+    >
+      <div className="container mx-auto px-4 sm:px-8 lg:px-20 ">
         <h2 className="text-4xl font-bold text-center mb-12">Why QKare?</h2>
-        <div className="grid md:grid-cols-3 gap-y-12 gap-x-12">
+        <div className="grid md:grid-cols-3 gap-y-12 gap-x-10">
           {content.map((item) => (
             <div key={item.id} className="bg-white text-black rounded-lg p-6 shadow-md">
               <h3 className="font-semibold text-base mb-4">{item.title}</h3>

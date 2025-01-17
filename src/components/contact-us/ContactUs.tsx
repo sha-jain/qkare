@@ -27,7 +27,7 @@ const ContactUs = () => {
   return (
     <div className="bg-gray-150 min-h-screen w-full flex flex-col items-center justify-center px-4 py-14">
       {/* Title Section */}
-      <div className="w-full max-w-7xl mx-auto mb-8 px-2 mt-4">
+      <div className="w-full max-w-7xl mx-auto mb-8 px-8 mt-4">
         <h1 className="text-3xl font-bold text-blue-900 mb-4 text-left">
           Connect With Us
         </h1>
@@ -40,10 +40,10 @@ const ContactUs = () => {
       </div>
 
       {/* Form and Contact Info Section */}
-      <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-[4fr_2fr] gap-8">
         {/* Contact Form */}
         <div>
-          <form name="submit-to-google-sheet" className="space-y-4 mb-6">
+          <form name="submit-to-google-sheet" className="space-y-4 mb-6 px-6">
             <input
               type="text"
               name="Name"
@@ -76,7 +76,7 @@ const ContactUs = () => {
             ></textarea>
             <button
               type="submit"
-              className="bg-red-500 text-white py-3 px-6 rounded-lg font-semibold hover:bg-red-600"
+              className="bg-red-500 text-white py-3 px-6 rounded-sm font-semibold hover:bg-red-600"
             >
               Submit Now
             </button>
@@ -85,7 +85,7 @@ const ContactUs = () => {
 
         {/* Contact Info */}
         <div className="space-y-8 text-lg">
-          <div className="flex items-center space-x-12">
+          <div className="flex items-center space-x-6">
             <div className="text-blue-500">
               <i className="fas fa-map-marker-alt text-2xl"></i>
             </div>
@@ -96,7 +96,7 @@ const ContactUs = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-center space-x-12">
+          <div className="flex items-center space-x-6">
             <div className="text-blue-500">
               <i className="fas fa-envelope text-2xl"></i>
             </div>
@@ -105,7 +105,7 @@ const ContactUs = () => {
               <p className="text-gray-600">info@qkare.life</p>
             </div>
           </div>
-          <div className="flex items-center space-x-12">
+          <div className="flex items-center space-x-6">
             <div className="text-blue-500">
               <i className="fas fa-globe text-2xl"></i>
             </div>

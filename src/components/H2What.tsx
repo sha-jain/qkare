@@ -36,16 +36,16 @@ const H2What = () => {
       </Head>
       <main className="pt-16 pb-28 w-full"
         style={{
-          backgroundImage: "url('/pexelsGdtography.jpg')",
+          backgroundImage: "url('/drew.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
-        <section className="max-w-6xl mx-auto px-4">
+        <section className="max-w-6xl mx-auto px-4 sm:px-8 lg:px-20 ">
           <h2 className="text-4xl font-bold text-center mb-12 text-black">What We Do?</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-12 gap-x-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-12 gap-x-10">
             {services.map((service, index) => (
-              <div key={index} className="p-6 bg-white rounded-lg shadow-md flex items-start">
+              <div key={index} className="p-4 bg-white rounded-lg shadow-md flex items-start">
                 <span className="text-3xl mr-4">{service.icon}</span>
                 <div>
                   <h3 className="text-xl font-bold mb-2">{service.title}</h3>

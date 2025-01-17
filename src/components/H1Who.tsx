@@ -1,21 +1,20 @@
+
 import Head from 'next/head';
+import StyledHeader from './StyledComponents';
 
 const HIWho = () => {
   return (
     <>
+      {/* SEO Metadata */}
       <Head>
         <title>QKare</title>
-        <meta name="description" content="Medical billing and coding solutions." />
+        <meta name="description" content="Medical billing and coding solutions tailored to maximize ROI." />
       </Head>
 
-      <header
-        className="h-screen flex items-center justify-start w-full bg-cover bg-center"
-        style={{
-          backgroundImage: "url('/Home3.png')"
-        }}
-      >
+      {/* Header Section */}
+      <StyledHeader>
         {/* Text Container */}
-        <div className="w-full max-w-lg ml-5 sm:ml-10 md:ml-20 bg-white/80 p-6 sm:p-8 rounded-lg">
+        <div className="text-container w-full max-w-xs sm:max-w-sm md:max-w-lg ml-5 sm:ml-10 md:ml-20 bg-white/80 p-6 sm:p-8 rounded-lg">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6">
             We are QKare!
           </h1>
@@ -29,7 +28,7 @@ const HIWho = () => {
             you to focus on exceptional patient care and maximize ROI.
           </p>
         </div>
-      </header>
+      </StyledHeader>
     </>
   );
 };

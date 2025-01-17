@@ -5,6 +5,10 @@ import Link from "next/link";
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
+
   return (
     <nav className="relative flex items-center justify-between px-4 py-2 bg-gray-100 shadow-md w-full">
     
@@ -63,22 +67,22 @@ const Navbar: React.FC = () => {
         `}
       >
         <li className="py-2 px-4 border-b border-gray-300 md:border-0">
-          <Link href="/" className="block hover:text-blue-600">
+          <Link href="/" className="block hover:text-blue-600" onClick={handleLinkClick}>
             Home
           </Link>
         </li>
         <li className="py-2 px-4 border-b border-gray-300 md:border-0">
-          <Link href="/about-us" className="block hover:text-blue-600">
+          <Link href="/about-us" className="block hover:text-blue-600" onClick={handleLinkClick}>
             About Us
           </Link>
         </li>
         <li className="py-2 px-4 border-b border-gray-300 md:border-0">
-          <Link href="/our-services" className="block hover:text-blue-600">
+          <Link href="/our-services" className="block hover:text-blue-600" onClick={handleLinkClick}>
             Services
           </Link>
         </li>
         <li className="py-2 px-4">
-          <Link href="/contact-us" className="block hover:text-blue-600">
+          <Link href="/contact-us" className="block hover:text-blue-600" onClick={handleLinkClick}>
             Contact Us
           </Link>
         </li>
