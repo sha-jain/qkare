@@ -28,7 +28,7 @@ const ContactUs = () => {
     <div className="bg-gray-150 min-h-screen w-full flex flex-col items-center justify-center px-4 py-14">
       {/* Title Section */}
       <div className="w-full max-w-7xl mx-auto mb-8 px-8 mt-4">
-        <h1 className="text-3xl font-bold text-blue-900 mb-4 text-left">
+        <h1 className="text-3xl font-bold mb-4 text-left">
           Connect With Us
         </h1>
         <p className="text-gray-600 text-left max-w-xl text-lg">

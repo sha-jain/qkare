@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <section className="bg-white py-12 px-12 lg:px-40 mt-6">
       {/* Title */}
-      <h1 className="text-3xl font-bold text-blue-900 mb-8">About Us</h1>
+      <h1 className="text-3xl font-bold mb-8">About Us</h1>
 
       <p className="text-gray-700 text-lg mb-4">
       At QKare, we bring together a collective expertise of over 40+ years in end-to-end Revenue Cycle Management (RCM), 
