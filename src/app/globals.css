@@ -11,7 +11,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #ffffff; /* Keep the white background in dark mode */
-    --foreground: #ededed;
+    --foreground: #171717; /* Ensure text color stays black in dark mode */
   }
 }
 
