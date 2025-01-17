@@ -1,22 +1,23 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #ffffff; /* Default white background */
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #ffffff; /* Keep the white background in dark mode */
     --foreground: #ededed;
   }
 }
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: var(--background); /* This ensures the background is controlled via the --background variable */
   font-family: 'Montserrat Variable', sans-serif;
 }
 
@@ -27,4 +28,3 @@ body {
     padding-right: 0 !important;
   }
 }
-
