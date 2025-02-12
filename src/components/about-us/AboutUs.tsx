@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="bg-white py-12 px-12 lg:px-40 mt-6">
+    <section className="bg-white py-12 px-12 lg:px-52 mt-6">
       {/* Title */}
       <h1 className="text-3xl font-bold mb-8">About Us</h1>
 
@@ -16,7 +16,7 @@ const AboutUs = () => {
       executing with precision to deliver seamless RCM solutions under one roof. Trust, credibility, and 
       goodwill are the pillars of our success, enabling us to build lasting relationships with healthcare providers across geographies.
       </p>
-      <p className="text-gray-700 text-lg mb-14">
+      <p className="text-gray-700 text-lg mb-16">
       At QKare, we are dedicated to empowering healthcare professionals by optimizing revenue processes, 
       reducing administrative burdens, and enhancing operational efficiency. This allows our clients to focus on what truly 
       matters—delivering exceptional care to their patients. Together, we aim to redefine healthcare management 
